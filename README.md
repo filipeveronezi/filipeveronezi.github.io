@@ -1,14 +1,41 @@
-# Filipe Veronezi | Projects
+# Getting Started with Create React App
 
-------
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Available Scripts
 
+In the project directory, you can run:
 
-|                          Repository                          |                             Page                             | Description                                                  |  Status   |
-| :----------------------------------------------------------: | :----------------------------------------------------------: | ------------------------------------------------------------ | :-------: |
-|       [happy](https://github.com/filipeveronezi/happy)       |                              -                               | Website developed for finding children's shelters around Atibaia-SP // developed on [Rocketseat](https://rocketseat.com.br/) NLW #3 event. | Finished  |
-|     [bin2dec](https://github.com/filipeveronezi/bin2dec)     | [filipeveronezi.github.io/bin2dec](https://filipeveronezi.github.io/bin2dec/) | Binary to decimal number converter.                          | Finished  |
-| [sdplus-display](https://github.com/filipeveronezi/sdplus-display) | [filipeveronezi.github.io/sdplus-display/](https://filipeveronezi.github.io/sdplus-display/) | I challenged myself to recreate one of the [Treetech](http://treetech.com.br/) IEDs, the SD+, in 3 dimensions. I'm currently using this challange to improve my CSS and Javascript skills. | Escalated |
-| [society-app](https://github.com/filipeveronezi/society-app) |            http://society.filipeveronezi.dev.br/             | An idea of platform to connect people by promoting soccer court rental companies. Society App is a full stack studying project developed for my Web Development class at college. | Finished  |
-| [treetech-ied-viewer](https://github.com/filipeveronezi/treetech-ied-viewer) |                              -                               | Escalated project from [sdplus-display](https://github.com/filipeveronezi/sdplus-display). The idea is to do a IED viewer easily scalable with Vue.js. |   To do   |
-|         [cep](https://github.com/filipeveronezi/cep)         |            https://filipeveronezi.github.io/cep/             | Zip code consulting project based on API requests with axios. | Finished  |
+### `yarn dev`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
+
+### `yarn build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).

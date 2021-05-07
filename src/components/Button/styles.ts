@@ -23,6 +23,8 @@ export const ButtonStyled = styled.a`
   cursor: pointer;
   transition: 0.4s;
 
+  z-index: 2;
+
   &:hover {
     background: var(--color-secondary);
   }

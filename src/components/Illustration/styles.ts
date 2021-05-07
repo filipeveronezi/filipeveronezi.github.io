@@ -11,4 +11,13 @@ export const Container = styled.div`
     height: 100%;
     width: 100%;
   }
+
+  @media (max-width: 1150px) {
+    position: absolute;
+    right: 0;
+    left: 10%;
+    img {
+      z-index: 0;
+    }
+  }
 `

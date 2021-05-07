@@ -9,7 +9,12 @@ interface Props {
 
 const Button: React.FC<Props> = ({ text, link }) => {
   return (
-    <ButtonStyled href={link} target="_blank" rel="noopener">
+    <ButtonStyled
+      href={link}
+      target="_blank"
+      rel="noreferrer"
+      className="animate-up"
+    >
       {text}
     </ButtonStyled>
   )

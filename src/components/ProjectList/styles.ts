@@ -10,7 +10,7 @@ export const Container = styled.div`
     grid-template-columns: 1fr 1fr;
   }
 
-  @media (max-width: 920px) {
+  @media (max-width: 780px) {
     grid-template-columns: 1fr;
   }
 `

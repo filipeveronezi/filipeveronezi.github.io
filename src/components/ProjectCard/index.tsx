@@ -14,7 +14,12 @@ interface Props {
 const ProjectCard: React.FC<Props> = ({ project }) => {
   return (
     <Card>
-      <a href={project.url} target="_blank" rel="noreferrer">
+      <a
+        href={project.url}
+        target="_blank"
+        rel="noreferrer"
+        className={project.url ? '' : 'inactive'}
+      >
         {project.title}
       </a>
     </Card>

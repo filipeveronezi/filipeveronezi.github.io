@@ -17,7 +17,7 @@ export const projects = [
   },
   {
     title: 'Dropbox UI Clone',
-    url: 'https://github.com/filipeveronezi/dropbox-ui-clone',
+    url: 'https://github.com/filipeveronezi/dropbox-menu-clone',
   },
   {
     title: 'Upcoming',

@@ -5,16 +5,21 @@ export const Card = styled.div`
   height: 174px;
   background: var(--bg-primary);
 
-  cursor: pointer;
   transition: 0.4s;
   box-shadow: 0 0 15px #000;
 
   padding: 0 5%;
 
+  & > a.inactive {
+    cursor: not-allowed;
+  }
+
   a {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    cursor: pointer;
 
     width: auto;
     height: 100%;
@@ -28,6 +33,11 @@ export const Card = styled.div`
     margin-right: -7px;
     text-align: center;
     line-height: 1.5;
+
+    &.inactive {
+      opacity: 20%;
+      pointer-events: none;
+    }
   }
 
   &:hover {

@@ -1,41 +1,77 @@
-# Getting Started with Create React App
+<h1 align="center">
+   ⬖ <a href="https://github.com/filipeveronezi/filipeveronezi.github.io/"> My Portfolio </a>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+  <a href="https://filipeveronezi.dev.br/">filipeveronezi.dev.br</a>
+</h3>
 
-## Available Scripts
+<h4 align="center"> 
+	 Status: Finished
+</h4>
 
-In the project directory, you can run:
+<p align="center">
+ <a href="#layout">Layout</a> •
+ <a href="#tech-stack">Tech Stack</a> • 
+ <a href="https://github.com/filipeveronezi">Author</a>
+</p>
 
-### `yarn dev`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Layout
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The application layout is available on Figma:
 
-### `yarn build`
+<a href="https://www.figma.com/file/NdWDhdaaLhvR2i82tDnDle/Filipe-Veronezi-Portfolio?node-id=0%3A1">
+  <img alt="Layout" src="https://img.shields.io/badge/Layout%20-Figma-%2304D361">
+</a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Pre-requisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Before you begin, you will need to have the following tools installed on your machine:
+- [Git] (https://git-scm.com)
+- [Node.js] (https://nodejs.org/en/)
+- Editor to work with the code like [VSCode] (https://code.visualstudio.com/)
+- (optional) [Yarn] (https://yarnpkg.com/)
 
-### `yarn eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Running the web application for development
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Clone this repository
+$ git clone git@github.com:filipeveronezi/filipeveronezi.github.io.git
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Access the project folder in your terminal
+$ cd filipeveronezi.github.io
 
-## Learn More
+# Install the dependencies
+$ npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Run the application in development mode
+$ npm run dev
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# The application will open on the port 3000 of your local host
+
+```
+
+## Tech Stack
+
+The following tools were used in the construction of the project:
+
+-   **[React.js](https://reactjs.org/)**
+-   **[Typescript](https://www.typescriptlang.org/)**
+-   **[Styled Components](https://styled-components.com/)**
+
+### Linting tools
+
+-   **[ESLint](https://eslint.org/)**
+-   **[Prettier](https://prettier.io/)**
+
+### **Other**
+
+-   Editor:  **[Visual Studio Code](https://code.visualstudio.com/)**
+-   Deploy on:  **[GitHub Pages](https://pages.github.com/)**

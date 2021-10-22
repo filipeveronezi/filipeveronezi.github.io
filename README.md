@@ -1,14 +1,10 @@
 <h1 align="center">
-   ⬖ <a href="https://github.com/filipeveronezi/filipeveronezi.github.io/"> My Portfolio </a>
+   <a href="https://github.com/filipeveronezi/filipeveronezi.github.io/"> My Portfolio </a>
 </h1>
 
 <h3 align="center">
   <a href="https://filipeveronezi.dev.br/">filipeveronezi.dev.br</a>
 </h3>
-
-<h4 align="center"> 
-	 Status: Finished
-</h4>
 
 <p align="center">
  <a href="#layout">Layout</a> •

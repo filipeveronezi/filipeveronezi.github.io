@@ -4,7 +4,7 @@ import { Container } from './styles'
 
 import ProjectCard from '../ProjectCard'
 
-import { projects } from '../../projects'
+import { projects } from '../../data/projects'
 
 const ProjectList: React.FC = () => {
   return (

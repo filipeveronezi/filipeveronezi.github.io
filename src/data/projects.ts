@@ -20,7 +20,7 @@ export const projects = [
     url: 'https://github.com/filipeveronezi/dropbox-menu-clone',
   },
   {
-    title: 'Upcoming',
-    url: '',
+    title: 'Compleat App',
+    url: 'https://github.com/filipeveronezi/compleat',
   },
 ]
